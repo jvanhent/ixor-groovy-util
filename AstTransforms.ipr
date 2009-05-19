@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project relativePaths="false" version="4">
+  <component name="AntConfiguration">
+    <defaultAnt bundledAnt="true" />
+  </component>
+  <component name="BuildJarProjectSettings">
+    <option name="BUILD_JARS_ON_MAKE" value="false" />
+  </component>
+  <component name="CodeStyleSettingsManager">
+    <option name="PER_PROJECT_SETTINGS" />
+    <option name="USE_PER_PROJECT_SETTINGS" value="false" />
+  </component>
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <option name="DEPLOY_AFTER_MAKE" value="0" />
+    <resourceExtensions>
+      <entry name=".+\.(properties|xml|html|dtd|tld)" />
+      <entry name=".+\.(gif|png|jpeg|jpg)" />
+    </resourceExtensions>
+    <wildcardResourcePatterns>
+      <entry name="?*.properties" />
+      <entry name="?*.xml" />
+      <entry name="?*.gif" />
+      <entry name="?*.png" />
+      <entry name="?*.jpeg" />
+      <entry name="?*.jpg" />
+      <entry name="?*.html" />
+      <entry name="?*.dtd" />
+      <entry name="?*.tld" />
+      <entry name="?*.ftl" />
+    </wildcardResourcePatterns>
+  </component>
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="EclipseCompilerSettings">
+    <option name="DEBUGGING_INFO" value="true" />
+    <option name="GENERATE_NO_WARNINGS" value="true" />
+    <option name="DEPRECATION" value="false" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
+    <option name="MAXIMUM_HEAP_SIZE" value="128" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="InspectionProjectProfileManager">
+    <option name="PROJECT_PROFILE" value="Project Default" />
+    <option name="USE_PROJECT_LEVEL_SETTINGS" value="false" />
+    <scopes />
+    <profiles>
+      <profile version="1.0" is_locked="false">
+        <option name="myName" value="Project Default" />
+        <option name="myLocal" value="false" />
+      </profile>
+    </profiles>
+    <list size="0" />
+  </component>
+  <component name="JavacSettings">
+    <option name="DEBUGGING_INFO" value="true" />
+    <option name="GENERATE_NO_WARNINGS" value="false" />
+    <option name="DEPRECATION" value="true" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
+    <option name="MAXIMUM_HEAP_SIZE" value="128" />
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="true" />
+    <option name="OPTION_NAVIGATOR" value="true" />
+    <option name="OPTION_INDEX" value="true" />
+    <option name="OPTION_SEPARATE_INDEX" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true" />
+    <option name="OPTION_DEPRECATED_LIST" value="true" />
+    <option name="OTHER_OPTIONS" value="" />
+    <option name="HEAP_SIZE" />
+    <option name="LOCALE" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+  </component>
+  <component name="JikesSettings">
+    <option name="JIKES_PATH" value="" />
+    <option name="DEBUGGING_INFO" value="true" />
+    <option name="DEPRECATION" value="true" />
+    <option name="GENERATE_NO_WARNINGS" value="false" />
+    <option name="IS_EMACS_ERRORS_MODE" value="true" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
+  </component>
+  <component name="ProjectDetails">
+    <option name="projectName" value="AstTransforms" />
+  </component>
+  <component name="ProjectFileVersion" converted="true" />
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AstTransforms.iml" filepath="$PROJECT_DIR$/AstTransforms.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.6.0" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="RmicSettings">
+    <option name="IS_EANABLED" value="false" />
+    <option name="DEBUGGING_INFO" value="true" />
+    <option name="GENERATE_NO_WARNINGS" value="false" />
+    <option name="GENERATE_IIOP_STUBS" value="false" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myVersion" value="124" />
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="" />
+  </component>
+  <component name="libraryTable">
+    <library name="groovy-1.6.3">
+      <CLASSES>
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/ant-1.7.1.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/ant-junit-1.7.1.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/ant-launcher-1.7.1.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/antlr-2.7.7.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/asm-2.2.3.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/asm-analysis-2.2.3.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/asm-tree-2.2.3.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/asm-util-2.2.3.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/bsf-2.4.0.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/commons-cli-1.2.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/commons-logging-1.1.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/groovy-1.6.3.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/ivy-2.0.0.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/jline-0.9.94.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/jsp-api-2.0.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/junit-3.8.2.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/servlet-api-2.4.jar!/" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy/lib/xstream-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy-1.6.3/groovy-1.6.3-src.zip!/groovy-1.6.3-src/src/main" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy-1.6.3/groovy-1.6.3-src.zip!/groovy-1.6.3-src/src/examples" />
+        <root url="jar:///Users/jvanhent/Development/groovy/groovy-1.6.3/groovy-1.6.3-src.zip!/groovy-1.6.3-src/src/tck/src" />
+      </SOURCES>
+    </library>
+  </component>
+</project>
+
