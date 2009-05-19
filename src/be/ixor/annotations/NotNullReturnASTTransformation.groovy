@@ -38,9 +38,12 @@ import org.codehaus.groovy.ast.stmt.AssertStatement
 import org.codehaus.groovy.ast.expr.DeclarationExpression
 import org.codehaus.groovy.syntax.Types
 
+/**
+ * @author jvanhent
+ */
 @GroovyASTTransformation (phase = CompilePhase.SEMANTIC_ANALYSIS)
 public class NotNullReturnASTTransformation implements ASTTransformation, Opcodes {
-
+  static final String NOT_NULL = '_NotNullCheck'
 
   public NotNullReturnASTTransformation() {
 
@@ -49,11 +52,6 @@ public class NotNullReturnASTTransformation implements ASTTransformation, Opcode
   public void visit(ASTNode[] nodes, SourceUnit source) {
     AnnotatedNode parent = (AnnotatedNode) nodes[1];
     AnnotationNode node = (AnnotationNode) nodes[0];
-
-    if (!(nodes[0] instanceof AnnotationNode) || !(nodes[1] instanceof AnnotatedNode)) {
-      throw new RuntimeException("Internal error: wrong types: $node / $parent");
-    }
-
 
     if (parent instanceof MethodNode) {
       MethodNode methodNode = (MethodNode) parent;
@@ -68,10 +66,7 @@ public class NotNullReturnASTTransformation implements ASTTransformation, Opcode
   }
 
   def addNotNullMethod(MethodNode method, ClassNode owner, Map ownMethods) {
-    if (method.isStatic())
-      return;
-
-    def notNullMethodName = method.getName() + '_NotNullCheck'
+    def notNullMethodName = method.getName() + NOT_NULL
     if (!ownMethods.containsKey(notNullMethodName)) {
       owner.addMethod(notNullMethodName,
               method.getModifiers() & -ACC_ABSTRACT,
@@ -89,7 +84,7 @@ public class NotNullReturnASTTransformation implements ASTTransformation, Opcode
             new ArgumentListExpression(method.getParameters()))
 
     BlockStatement block = new BlockStatement();
-    VariableExpression resultVariable = new VariableExpression("result", method.getReturnType());
+    VariableExpression resultVariable = new VariableExpression("resultNotNullMethod", method.getReturnType());
     block.addStatement(new ExpressionStatement(
             new DeclarationExpression(resultVariable,
                     Token.newSymbol(Types.EQUALS, 0, 0),

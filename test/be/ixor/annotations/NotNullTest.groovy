@@ -1,4 +1,8 @@
 package be.ixor.annotations
+
+/**
+ * @author jvanhent
+ */
 public class NotNullReturnTest extends GroovyTestCase {
 
   public void testWithGoodResult() {

@@ -57,25 +57,16 @@
       <file leaf-file-name="NotNullReturnASTTransformation.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/ixor/annotations/NotNullReturnASTTransformation.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="13" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0">
+            <state line="86" column="83" selection-start="3633" selection-end="3633" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotNullTest.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="NotNullTest.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/be/ixor/annotations/NotNullTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="34" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NotNullReturn.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/be/ixor/annotations/NotNullReturn.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="330" selection-end="330" vertical-scroll-proportion="0.22826087">
+            <state line="3" column="19" selection-start="52" selection-end="52" vertical-scroll-proportion="0.093023255">
               <folding />
             </state>
           </provider>
@@ -222,15 +213,15 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NotNullReturnTest">
-    <tempConfiguration default="false" name="NotNullReturnTest" type="JUnit" factoryName="JUnit" enabled="false" merge="false" runner="emma">
+  <component name="RunManager" selected="JUnit.All in AstTransforms">
+    <tempConfiguration default="false" name="All in AstTransforms" type="JUnit" factoryName="JUnit" enabled="false" merge="false" runner="emma">
       <module name="AstTransforms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="be.ixor.annotations" />
-      <option name="MAIN_CLASS_NAME" value="be.ixor.annotations.NotNullReturnTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -330,8 +321,9 @@
         <option name="Make" value="true" />
       </method>
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.NotNullTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in AstTransforms" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -378,7 +370,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1420" height="787" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Dataflow to this" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
@@ -392,7 +384,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36445785" sideWeight="0.5" order="2" side_tool="false" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36445785" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19752187" sideWeight="0.625" order="2" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4939759" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
@@ -430,13 +422,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Users/jvanhent/Development/groovy/groovy-1.6.3/groovy-1.6.3-src.zip!/groovy-1.6.3-src/src/main/org/codehaus/groovy/classgen/AsmClassGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3228" column="24" selection-start="132525" selection-end="132525" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Users/jvanhent/Development/groovy/groovy-1.6.3/groovy-1.6.3-src.zip!/groovy-1.6.3-src/src/main/org/codehaus/groovy/classgen/Verifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1072" column="51" selection-start="49063" selection-end="49063" vertical-scroll-proportion="0.0">
@@ -514,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/ixor/annotations/NotNullReturnASTTransformation.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="13" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/be/ixor/annotations/NotNullReturnTestObject.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="27" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
@@ -528,16 +506,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/be/ixor/annotations/NotNullTest.groovy">
+    <entry file="file://$PROJECT_DIR$/src/be/ixor/annotations/NotNullReturn.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="34" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
+        <state line="7" column="94" selection-start="259" selection-end="259" vertical-scroll-proportion="0.16304348">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/ixor/annotations/NotNullReturn.groovy">
+    <entry file="file://$PROJECT_DIR$/src/be/ixor/annotations/NotNullReturnASTTransformation.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="330" selection-end="330" vertical-scroll-proportion="0.22826087">
+        <state line="86" column="83" selection-start="3633" selection-end="3633" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Users/jvanhent/Development/groovy/groovy/lib/junit-3.8.2.jar!/junit/framework/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/be/ixor/annotations/NotNullTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="52" selection-end="52" vertical-scroll-proportion="0.093023255">
           <folding />
         </state>
       </provider>
